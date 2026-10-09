@@ -1,0 +1,14 @@
+{
+  "name": "daily-log-and-daily-data-system",
+  "version": "1.0.0",
+  "description": "Full-stack Daily Log and Daily Data system with attendance auto-fill integration",
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "npm run install-all && npm run build-frontend",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "build-frontend": "cd frontend && npm run build",
+    "start": "node backend/server.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
